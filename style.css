@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62%;
+}
+body {
+  font-size: 1.8rem;
+  font-family: "Open Sans", sans-serif;
+  background-color: #010514;
+  color: #eee;
+}
+:root {
+  --text-light: rgb(112, 64, 64);
+}
+h1,
+h2 {
+  font-size: 2.2rem;
+}
+span {
+  display: inline-block;
+}
+.container {
+  max-width: 90%;
+  background-color: antiquewhite;
+  margin: auto;
+}
+.bg {
+  width: 100%;
+  /* height: 100vh; */
+  background-image: url(./images/590107034_1620473585997770_6854213281551043745_n.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo {
+  margin: 7rem;
+}
+.poster {
+  width: 100%;
+  height: 300px;
+}
+.poster img {
+  width: 100%;
+  height: 100%;
+}
+.txt-movie > span {
+  font-size: 4rem;
+  font-weight: 800;
+  text-align: center;
+  line-height: 1;
+}
+.txt-movie > span > span {
+  color: blueviolet;
+}
+.search {
+  width: 90%;
+  height: 45px;
+  /* background-color: aquamarine; */
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  border: 3px solid blueviolet;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.search span {
+  width: 20%;
+  height: 100%;
+  /* background-color: rgb(106, 72, 27); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search input {
+  display: block;
+  width: 90%;
+  height: 100%;
+  font-size: 2.2rem;
+  border: none;
+  background-color: transparent;
+  color: #eee;
+}
+.search input:focus {
+  outline: none;
+}
+@media (min-width: 768px) {
+  .poster {
+    width: 60%;
+    height: 300px;
+  }
+  .poster img {
+    width: 100%;
+    height: 100%;
+  }
+  .txt-movie {
+    width: 60%;
+    margin-top: 3.5rem;
+  }
+  .search {
+    width: 55%;
+    height: 45px;
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    border: 3px solid blueviolet;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+}
+@media (min-width: 992px) {
+  .poster {
+    width: 35%;
+    height: 300px;
+  }
+  .poster img {
+    width: 100%;
+    height: 100%;
+  }
+  .txt-movie {
+    width: 40%;
+    margin-top: 3.5rem;
+  }
+  .search {
+    width: 40%;
+    height: 45px;
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    border: 3px solid blueviolet;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+}
+@media (min-width: 1200px) {
+}
